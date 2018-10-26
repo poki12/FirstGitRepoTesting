@@ -51,7 +51,7 @@ public class NewTest {
   //Clear pass and enter password, click submit
   //*[@id='password']/div[1]/div/div[1]/input
   driver.findElement(By.id("password")).clear();
-  driver.findElement(By.id("password")).sendKeys("kitkat89");
+  driver.findElement(By.id("password")).sendKeys("++++++");
   //driver.findElement(By.id("PersistentCookie")).click();
   driver.findElement(By.id("passwordNext")).click();
   Thread.sleep(2000);
